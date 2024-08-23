@@ -1,0 +1,53 @@
+/* src/styles/App.css */
+
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+}
+
+h1 {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.playlist {
+  width: 30%;
+}
+
+.playlist h2 {
+  text-align: center;
+}
+
+.playlist ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.playlist li {
+  margin-bottom: 10px;
+}
+
+.playlist button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.playlist button:hover {
+  background-color: #2980b9;
+}
+
+.video-js {
+  width: 65%;
+  height: auto;
+}
